@@ -1,0 +1,52 @@
+.owner-page {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.owner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.owner-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.owner-btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--accent-bg);
+  color: var(--accent);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.owner-btn:hover {
+  border-color: var(--accent-border);
+}
+
+.owner-section {
+  margin-top: 35px;
+}
+
+.owner-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.owner-table th,
+.owner-table td {
+  border: 1px solid var(--border);
+  padding: 12px;
+  text-align: center;
+}
+
+.owner-table th {
+  background: var(--accent-bg);
+}

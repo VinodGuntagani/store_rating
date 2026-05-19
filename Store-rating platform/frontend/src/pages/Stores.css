@@ -1,0 +1,50 @@
+.stores-page {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.stores-header {
+  margin-bottom: 25px;
+}
+
+.stores-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.password-box h3 {
+  margin-bottom: 10px;
+}
+
+.password-row {
+  display: flex;
+  gap: 10px;
+}
+
+.search-input {
+  min-width: 250px;
+}
+
+.stores-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stores-table th,
+.stores-table td {
+  border: 1px solid var(--border);
+  padding: 12px;
+  text-align: center;
+}
+
+.stores-table th {
+  background: var(--accent-bg);
+}
+
+.rating-input {
+  width: 70px;
+}
